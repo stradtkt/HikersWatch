@@ -32,7 +32,7 @@
         android:padding="20dp"
         android:text="Latitude: 12.23"
         android:textColor="#fff"
-        android:textSize="20sp" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/lngTextView"
@@ -45,6 +45,42 @@
         android:padding="20dp"
         android:text="Longitude: 50.34"
         android:textColor="#fff"
-        android:textSize="20sp" />
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/accTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lngTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="20dp"
+        android:text="Accuracy: 12.23"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/altTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="20dp"
+        android:text="Altitude: 12.23"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/addTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/altTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="20dp"
+        android:text="Address: 1217 Glen Haven Ln"
+        android:textColor="#fff"
+        android:textSize="16sp" />
 
 </RelativeLayout>
